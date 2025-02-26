@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="Created paddle">
+    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="removed animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddles.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740459603731</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed animation">
+      <option name="closed" value="true" />
+      <created>1740539045110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740539045110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Created paddle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created paddle" />
+    <MESSAGE value="removed animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed animation" />
   </component>
 </project>
