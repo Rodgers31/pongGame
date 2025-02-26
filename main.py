@@ -1,11 +1,14 @@
 from turtle import Turtle, Screen
 from paddles import Paddle
+import time
 
 
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("Pong Game")
+# Turns of animation in the screen
+screen.tracer(0)
 
 paddle = Turtle()
 paddle.shape("square")
@@ -29,11 +32,11 @@ screen.listen()
 screen.onkey(go_up, "Up")
 screen.onkey(go_down, "Down")
 
+# We need the while loop to update the screen and display the items
+game_is_on = True
 
-
-
-
-
+while game_is_on:
+    screen.update()
 
 
 screen.exitonclick()
