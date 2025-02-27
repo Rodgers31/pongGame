@@ -29,7 +29,8 @@ game_is_on = True
 
 while game_is_on:
     # This will delay our while sleep a little between each of the updates
-    time.sleep(0.1)
+    # time.sleep(0.1)
+    time.sleep(game_ball.move_speed)
     screen.update()
     game_ball.move()
 
@@ -41,15 +42,18 @@ while game_is_on:
     if (game_ball.distance(r_paddle) < 50 and game_ball.xcor() > 320
             or game_ball.distance(l_paddle) < 50 and game_ball.xcor() < -320):
         game_ball.bounce_x()
+
     # Detect R paddle miss of all
     if game_ball.xcor() > 380:
         game_ball.reset_position()
         scoreboard.l_point()
 
 
+
     # Detect L paddle miss of all
     if game_ball.xcor() < -380:
         game_ball.reset_position()
         scoreboard.r_point()
+        game_ball.speed(3)
 
 screen.exitonclick()
