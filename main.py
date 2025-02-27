@@ -3,7 +3,6 @@ from turtle import Turtle, Screen
 from paddles import Paddle
 from ball import Ball
 
-
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
@@ -14,7 +13,6 @@ screen.tracer(0)
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 game_ball = Ball()
-
 
 screen.listen()
 screen.onkey(r_paddle.go_up, "Up")
@@ -33,14 +31,9 @@ while game_is_on:
     screen.update()
     game_ball.move()
 
-
-
+    #  Detect collision with wall
+    if game_ball.ycor() > 280 or game_ball.ycor() < -280:
+        # need to bounce
+        game_ball.bounce()
 
 screen.exitonclick()
-
-
-
-
-
-
-
