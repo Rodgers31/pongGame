@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="detect wall">
+    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="detect paddle and miss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740626393651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="detect paddle and miss">
+      <option name="closed" value="true" />
+      <created>1740632291138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740632291138</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +134,7 @@
     <MESSAGE value="paddle class creation" />
     <MESSAGE value="ball class and movement" />
     <MESSAGE value="detect wall" />
-    <option name="LAST_COMMIT_MESSAGE" value="detect wall" />
+    <MESSAGE value="detect paddle and miss" />
+    <option name="LAST_COMMIT_MESSAGE" value="detect paddle and miss" />
   </component>
 </project>
