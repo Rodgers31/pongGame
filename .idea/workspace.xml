@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="added score chart">
+    <list default="true" id="37ebe4ca-3bd8-48f0-9179-215d133b14e8" name="Changes" comment="increased ball speed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740633371049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="increased ball speed">
+      <option name="closed" value="true" />
+      <created>1740634620500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740634620500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +160,7 @@
     <MESSAGE value="detect wall" />
     <MESSAGE value="detect paddle and miss" />
     <MESSAGE value="added score chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="added score chart" />
+    <MESSAGE value="increased ball speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="increased ball speed" />
   </component>
 </project>
